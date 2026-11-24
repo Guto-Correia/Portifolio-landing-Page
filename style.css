@@ -1,0 +1,77 @@
+/* ------------------------------- RESETS -------------------------------- */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 50px 30px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-collor);
+}
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --text-collor: #393939;
+    --blue-principal: #A6BCFA;
+    --blue-of-destaque: #2350D6;
+    --container-width: 360px;
+}
+
+/* --------------------------- HERO HEADER ---------------------------------- */
+header.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header .logo{
+    padding: 10px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    font-size: 0.5rem;
+    padding: 10px;
+}
+
+header button {
+    border: none;
+    background-color: transparent;
+    padding: 8px;
+}
+
+/* --------------------------- HERO MAIN ---------------------------------- */
