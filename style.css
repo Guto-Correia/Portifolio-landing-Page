@@ -22,6 +22,10 @@ body {
     padding: 50px 30px;
 }
 
+h1 {
+    color: var(--text-collor);
+}
+
 ul,
 ol {
     list-style: none;
@@ -54,7 +58,8 @@ header nav {
     align-items: center;
     gap: 20px;
 }
-header .logo{
+
+header .logo {
     padding: 10px;
 }
 
@@ -75,3 +80,25 @@ header button {
 }
 
 /* --------------------------- HERO MAIN ---------------------------------- */
+.container .boxPerfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container .boxPerfilTexto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.boxPerfilTexto h1 span {
+    color: var(--blue-of-destaque);
+}
+.boxPerfilTexto p{
+    color: var(--text-collor);
+    line-height: 1.5;
+    font-size: 0.7rem;
+}
